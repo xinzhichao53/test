@@ -1,5 +1,7 @@
 'use strict';
 
+Object.defineProperty(exports, '__esModule', { value: true });
+
 function numAdd(value) {
     value += 1;
     return value;
@@ -10,13 +12,5 @@ function numAdd(value) {
     return value;
 }
 
-// import { version } from '../package.json';
-// export default function test1() {
-//   console.log('version：' + version );
-// }
-var main = {
-  numAdd,
-  NumRe
-};
-
-module.exports = main;
+exports.NumRe = NumRe;
+exports.numAdd = numAdd;

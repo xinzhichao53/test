@@ -3,7 +3,7 @@ import {numAdd, NumRe} from './foo.js';
 // export default function test1() {
 //   console.log('version：' + version );
 // }
-export default {
+export {
   numAdd,
   NumRe
 };

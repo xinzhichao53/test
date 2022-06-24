@@ -8,13 +8,4 @@ function numAdd(value) {
     return value;
 }
 
-// import { version } from '../package.json';
-// export default function test1() {
-//   console.log('version：' + version );
-// }
-var main = {
-  numAdd,
-  NumRe
-};
-
-export { main as default };
+export { NumRe, numAdd };
